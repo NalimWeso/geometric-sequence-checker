@@ -1,0 +1,79 @@
+body {
+    background-color: #33006f;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h6 {
+    color: #D2D2D2;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.form {
+    font-size: 50px;
+    margin: 3rem 0 0 0;
+}
+
+input {
+    color: #450b6b;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 7px;
+    border: 5px solid #33006f;
+    border-radius: 15px;
+    vertical-align: middle;
+}
+
+input:focus {
+    border: 5px solid #532587;
+}
+
+button {
+    font-size: 30px;
+    background-color: #6f40a4;
+    color: white;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+button:hover {
+    background-color: #532587;
+}
+
+button:active {
+    background-color: #a586c7;
+}
+
+.button-clear {
+    margin-left: 10px;
+}
+
+.input-and-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.math-solution {
+    color: white;
+    margin: 2rem 0 0 2rem;
+}
+
+.ratio {
+    color: #D2D2D2;
+    font-size: 27px;
+    font-weight: bold;
+    font-style: italic;
+}
