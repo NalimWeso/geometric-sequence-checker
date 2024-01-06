@@ -10,28 +10,29 @@ h1 {
     margin-bottom: 0;
 }
 
+h5 {
+    font-size: 40px;
+    margin: -4vh 0 2vh 0;
+    padding: 0;
+}
+
 h6 {
     color: #D2D2D2;
     font-size: 25px;
     margin: 10px;
 }
 
-label {
-    cursor: text;
-}
-
 @media screen and (max-width: 810px) {
     h1 {
         font-size: 35px;
-        margin-bottom: -50px;
+    }
+
+    h5 {
+        font-size: 25px;
     }
 
     h6 {
         font-size: 12px;
-    }
-
-    label {
-        font-size: 30px;
     }
 }
 
