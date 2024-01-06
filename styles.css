@@ -20,6 +20,21 @@ label {
     cursor: text;
 }
 
+@media screen and (max-width: 810px) {
+    h1 {
+        font-size: 35px;
+        margin-bottom: -50px;
+    }
+
+    h6 {
+        font-size: 12px;
+    }
+
+    label {
+        font-size: 30px;
+    }
+}
+
 .form {
     font-size: 50px;
     margin: 3rem 0 0 0;
@@ -43,7 +58,7 @@ button {
     font-size: 30px;
     background-color: #6f40a4;
     color: white;
-    margin-left: 5px;
+    margin: -7px -15px 0 5px;
     border: none;
     border-radius: 5px;
     vertical-align: middle;
@@ -68,6 +83,18 @@ button:active {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 416px) {
+    .input-and-button {
+        margin-top: -40px;
+    }
+}
+
+.sequence {
+    width: 100%;
+    max-width: 50vh;
 }
 
 .math-solution {
