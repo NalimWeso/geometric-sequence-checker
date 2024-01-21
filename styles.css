@@ -87,15 +87,15 @@ button:active {
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 416px) {
+@media screen and (max-width: 534px) {
     .input-and-button {
-        margin-top: -40px;
+        margin-top: -50px;
     }
 }
 
 .sequence {
     width: 100%;
-    max-width: 50vh;
+    max-width: 500px;
 }
 
 .math-solution {
