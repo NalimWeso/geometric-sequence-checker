@@ -8,12 +8,12 @@ body {
 
 h1 {
     margin-bottom: 0;
-    font-size: 5vw;
+    font-size: 5.5vw;
 }
 
 h5 {
     font-size: 3.5vw;
-    margin: -4vh 0 2vh 0;
+    margin: -2rem 0 1rem 0;
     padding: 0;
 }
 
@@ -43,7 +43,7 @@ input:focus {
 }
 
 button {
-    font-size: 30px;
+    font-size: 40px;
     background-color: #6f40a4;
     color: white;
     margin: -7px -15px 0 5px;
