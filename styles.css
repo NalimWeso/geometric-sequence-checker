@@ -56,7 +56,7 @@ button {
     font-size: 40px;
     background-color: #6f40a4;
     color: white;
-    margin: -7px -15px 0 5px;
+    margin-top: -7px;
     border: none;
     border-radius: 5px;
     vertical-align: middle;
@@ -72,8 +72,14 @@ button:active {
     background-color: #a586c7;
 }
 
-.button-clear {
-    margin-left: 10px;
+.button-check {
+    margin-left: 7px;
+}
+
+@media screen and (max-width: 792px) {
+    .button-check {
+        margin-left: 0;
+    }
 }
 
 .input-and-button {
