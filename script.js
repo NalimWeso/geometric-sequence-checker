@@ -20,7 +20,6 @@ function geometricSequenceInput() {
 }
 
 function runProgram() {
-
     document.querySelector('.math-solution').style.color = 'white';
 
     sequence = (array) => {
