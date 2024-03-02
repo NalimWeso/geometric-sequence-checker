@@ -2,10 +2,10 @@ try {
     let geometricSequence;
 
     function checkInput() {
-        const input = document.querySelector('.sequence').value;
+        const input = document.querySelector('.sequence').value.trim().replace(/\s{2,}/g, ' ');
 
         if (/^-?\d+(\.\d+)?(?:\s+-?\d+(\.\d+)?)+$/.test(input) && /\S/.test(input) && !(/^\s|\s$/.test(input) || /\s{2,}/.test(input))) {
-            geometricSequenceInput();
+            geometricSequenceInput(input);
             runProgram();
         } else if (/^\d+(\.\d+)?$/.test(input)) {
             incorrectlyEnteredData('Only one number entered.');
@@ -16,8 +16,8 @@ try {
         }
     }
 
-    function geometricSequenceInput() {
-        geometricSequence = document.querySelector('.sequence').value.split(' ').map(Number);
+    function geometricSequenceInput(input) {
+        geometricSequence = input.split(' ').map(Number);
     }
 
     function runProgram() {
