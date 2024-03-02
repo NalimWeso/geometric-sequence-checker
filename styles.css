@@ -148,6 +148,7 @@ button:active {
 @media screen and (min-width: 1000px) {
     .math-solution {
         font-size: 40px;
+        margin: 20px 0;
     }
 
     .ratio {
