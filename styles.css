@@ -1,48 +1,38 @@
 body {
-    background-color: #33006f;
+    background-color: #33006F;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
     text-align: center;
 }
 
 h1 {
-    font-size: 6vw;
-    margin-top: 1rem;
+    font-size: 7vw;
+    margin: 0;
+    white-space: nowrap;
+    cursor: default;
 }
 
 h5 {
-    font-size: 2vw;
-    margin: -2rem 0 0rem 0;
+    font-size: 3vw;
+    margin: 1vw 0 0.3vw 0;
     padding: 0;
+    cursor: default;
 }
 
 h6 {
     color: #D2D2D2;
-    font-size: 1vw;
-    margin: 0.5rem;
-}
-
-@media screen and (max-width: 1100px) {
-    h5 {
-        font-size: 3vw;
-    }
-
-    h6 {
-        font-size: 2vw;
-    }
-}
-
-.form {
-    font-size: 50px;
-    margin: 3rem 0 0 0;
+    font-size: 2vw;
+    margin: 0;
+    cursor: default;
 }
 
 input {
-    color: #450b6b;
+    color: #450B6B;
     font-size: 30px;
     font-weight: bold;
     padding-left: 7px;
+    width: 100%;
+    max-width: 500px;
     border: 5px solid #33006f;
     border-radius: 15px;
     vertical-align: middle;
@@ -53,15 +43,19 @@ input:focus {
 }
 
 button {
-    font-size: 40px;
+    font-size: 35px;
     background-color: #6f40a4;
     color: white;
-    margin-top: -7px;
+    margin: 0 2.5px 2.5px 2.5px;
+    padding: 4px 5px;
     border: none;
     border-radius: 5px;
-    vertical-align: middle;
     cursor: pointer;
     transition: background-color 0.15s;
+}
+
+button:first-child {
+    margin-left: 5px;
 }
 
 button:hover {
@@ -72,43 +66,91 @@ button:active {
     background-color: #a586c7;
 }
 
-.button-check {
-    margin-left: 7px;
-}
-
-@media screen and (max-width: 792px) {
-    .button-check {
-        margin-left: 0;
-    }
-}
-
 .input-and-button {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-}
-
-@media screen and (max-width: 534px) {
-    .input-and-button {
-        margin-top: -60px;
-    }
-}
-
-.sequence {
-    width: 100%;
-    max-width: 500px;
 }
 
 .math-solution {
-    color: white;
-    margin: 2rem 0 2rem 0;
+    font-size: 4vw;
+    margin: 2vw 0;
 }
 
 .ratio {
     color: #D2D2D2;
-    font-size: 27px;
+    font-size: 5vw;
     font-weight: bold;
     font-style: italic;
+}
+
+@media screen and (max-width: 1000px) {
+    .input-and-button {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 754px) {
+    h1 {
+        margin-top: 4vw;
+    }
+
+    h5 {
+        margin-top: 2.5vw;
+    }
+
+    h6 {
+        margin-bottom: 1.5vw;
+    }
+
+    input {
+        font-size: 25px;
+        width: 95%;
+    }
+
+    button {
+        font-size: 30px;
+        margin-top: 7.5px;
+    }
+
+    button:first-child {
+        margin-left: 2.5px;
+    }
+
+    .input-and-button {
+        margin-top: -6.5px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .input-and-button {
+        margin-top: -12px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    h1 {
+        font-size: 105px;
+    }
+
+    h5 {
+        font-size: 45px;
+        margin: 15px 0 4.5px 0;
+    }
+
+    h6 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .math-solution {
+        font-size: 40px;
+    }
+
+    .ratio {
+        font-size: 50px;
+    }
 }
