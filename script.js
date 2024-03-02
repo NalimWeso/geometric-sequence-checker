@@ -34,7 +34,7 @@ function runProgram() {
         length = division.length;
 
         if (divisionLength(division) === true) {
-            document.querySelector('.math-solution').innerHTML = `The function is geometric.<br><br><span class="ratio">Common ratio (r) = ${division[0]}`;
+            document.querySelector('.math-solution').innerHTML = `The function is geometric.<br><span class="ratio">Common ratio (r) = ${division[0]}`;
         }
         else {
             document.querySelector('.math-solution').innerHTML = `The function is not geometric.`;
